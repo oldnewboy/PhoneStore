@@ -27,6 +27,7 @@ class ServiceApplicationTests {
     void testDoLogin(){
         User login = userService.doLogin("李四", "111");
         System.out.println(login);
+        System.out.println("666");
     }
 
 }
